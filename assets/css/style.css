@@ -1,0 +1,62 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;1,100;1,200&family=Poppins:wght@300;400;900&family=Raleway:wght@100&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 10%, 34%);
+}
+.prep-time h2 {
+    color:  hsl(30, 10%, 34%);
+}
+.ingredients h2 ,.instructions h2, .nutrition-info h2{
+    color:  hsl(30, 10%, 34%);
+}
+.container {
+    background-color: white;
+    border: 10px solid white;
+    /* border-radius: 15px; */
+    width: 50%;
+    MARGIN: 20px auto  ;
+    
+
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+.prep-time h2{
+  color: rgb(133, 9, 29);
+}
+.header-content{
+  padding-left: 20px;  
+}
+.prep-nutrition{
+    max-width: 800px;
+    /* margin: 20px auto; */
+    padding-left: 20px;
+    background-color:hsl(330, 100%, 98%);
+}
+ .ingredients, .instructions, .nutrition-info {
+    max-width: 800px;
+    margin:  auto;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul, ol {
+    padding-left: 20px;
+
+}
